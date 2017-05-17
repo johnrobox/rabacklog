@@ -1,8 +1,8 @@
 ###################
-What is RABACKLOG
+RABACKLOG Crazy :-D 
 ###################
 
-Hmm.. Im john, it was a coldy afternoon in my office came up in my mind to search some backlog services of my freelance project, I gathered some sites that offers a service mention but I have to pay on it in order to use there services. Well, I dont have enough money and I cannot afford to pay on it, ... after an our I just asking in myself, What if i will create on my own project backlog tracking?.Hmmmm.. wow nice.. 
+Hmm.. Im john, it was a coldy afternoon in my office came up in my mind to search some backlog services of my freelance project, I gathered some sites that offers a service mention but I have to pay on it in order to use there services. Well, I dont have enough money and I cannot afford to pay on it, ... after an our I just asking in myself, What if i will create on my own project backlog tracking?.Hmmmm.. wow nice.. :-D :-D :-D
 
 *******************
 Release Information
