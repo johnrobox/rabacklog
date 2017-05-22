@@ -4,7 +4,9 @@
 <!--  H1 can have 2 designs: "logo" and "logo cursive"           -->
 
         <div class="content">
-            <h4 class="motto">Free Backlog Project Management.</h4>
+            <h4 class="motto-custom">Free Backlog Project Management.</h4>
+            <?php echo $this->session->flashdata('success'); ?>
+            <?php echo $this->session->flashdata('error');?>
             <div class="subscribe">
                 <h5 class="info-text">
                     Join the waiting list for the beta. We keep you posted.

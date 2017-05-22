@@ -748,6 +748,20 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 .main .motto{
     min-height: 140px;
 }
+
+.main .motto-custom{
+    min-height: 50px;
+}
+
+.main .motto-custom, .main .subscribe .info-text{
+    font-size: 28px;
+    color: #FFFFFF;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.33);
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
 .main .motto, .main .subscribe .info-text{
     font-size: 28px;
     color: #FFFFFF;
@@ -818,7 +832,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 }
 @media (min-width:991px){        
     .main .subscribe .form-group{
-        width: 190px;
+       //width: 190px;
     }   
     .footer{
         position: fixed;
@@ -827,7 +841,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 }
 @media (min-width:1200px){        
     .main .subscribe .form-group{
-        width: 250px;
+        //width: 250px;
     }   
 }
 

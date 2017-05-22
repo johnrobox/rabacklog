@@ -7,7 +7,7 @@
  </div>
 
 </body>
-    <script src="js/jquery-1.10.2.js" type="text/javascript"></script>
-	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url();?>js/jquery-1.10.2.js" type="text/javascript"></script>
+<script src="<?php echo base_url();?>js/bootstrap.min.js" type="text/javascript"></script>
 
 </html>
