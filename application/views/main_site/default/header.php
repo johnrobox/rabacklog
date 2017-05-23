@@ -62,12 +62,12 @@
       </ul>
       <ul class="nav navbar-nav navbar-right">
           <li>
-              <a href="" class="dropdown-toggle" data-toggle="dropdown">
+              <a href="<?php echo base_url();?>index.php/Login/">
                   Login
               </a>
           </li>
           <li>
-              <a href="<?php echo base_url();?>index.php/RegisterController/">
+              <a href="<?php echo base_url();?>index.php/Register/">
                   Register
               </a>
           </li>
