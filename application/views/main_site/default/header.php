@@ -1,19 +1,21 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<link rel="apple-touch-icon" sizes="76x76" href="<?php echo base_url();?>images/main_page/apple-icon.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="<?php echo base_url();?>images/main_page/favicon.png">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="apple-touch-icon" sizes="76x76" href="<?php echo base_url();?>images/main_page/apple-icon.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="<?php echo base_url();?>images/main_page/favicon.png">
 
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
 
-    <title>Restaurant </title>
+    <title>Rabacklog </title>
 
-    <link href="<?php echo base_url();?>css/bootstrap.css" rel="stylesheet" />
-    <link href="<?php echo base_url();?>css/coming-sssoon.css" rel="stylesheet" />
-    <link href="<?php echo base_url();?>css/common.css" rel="stylesheet" />
+    <?php 
+    echo link_tag('css/bootstrap.css'); 
+    echo link_tag('css/coming-sssoon.css'); 
+    echo link_tag('css/common.css'); 
+    ?>
 
     <!--     Fonts     -->
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet">
@@ -60,38 +62,17 @@
         </li>
 
       </ul>
-      <ul class="nav navbar-nav navbar-right">
-          <li>
-              <a href="<?php echo base_url();?>index.php/Login/">
-                  Login
-              </a>
-          </li>
-          <li>
-              <a href="<?php echo base_url();?>index.php/Register/">
-                  Register
-              </a>
-          </li>
-          
-            <li>
-                <a href="#">
-                    <i class="fa fa-facebook-square"></i>
-                    Like
-                </a>
-            </li>
-             <li>
-                <a href="#">
-                    <i class="fa fa-twitter"></i>
-                    Tweet
-                </a>
-            </li>
-             <li>
-                <a href="#">
-                    <i class="fa fa-gittip"></i>
-                    Gittip
-                </a>
-            </li>
-       </ul>
-
+      <?php
+      $list = array(
+          '<a href="'. base_url().'index.php/Login/"> Login </a>',
+          '<a href="'. base_url().'index.php/Register/"> Register </a>',
+          '<a href="'. base_url().'index.php/Login/"> <i class="fa fa-facebook-square"></i> Like </a>',
+          '<a href="'. base_url().'index.php/Login/"> <i class="fa fa-twitter"></i> Tweet </a>',
+          '<a href="'. base_url().'index.php/Login/"> <i class="fa fa-gittip"></i> Gittip </a>',
+      );
+      echo ul($list, array('class'=>'nav navbar-nav navbar-right'));
+      ?>
+        
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container -->
 </nav>

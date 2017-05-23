@@ -58,6 +58,7 @@ class Register extends CI_Controller {
             )
         );
         $this->form_validation->set_rules($validate);
+        $this->form_validation->set_error_delimiters('<div class="text-error">', '</div>');
         if ($this->form_validation->run() == false) {
             $this->index();
         } else {
