@@ -92,7 +92,7 @@ class Register extends CI_Controller {
 
             $register = $this->user->insert($data);
             if ($register) {
-                $this->session->set_flashdata('success', $this->alert->successAlert('Your Account was successfully created! Click <a href=""> HERE </a> to login'));
+                $this->session->set_flashdata('success', $this->alert->successAlert('Your Account was successfully created! Click <a href="'.base_url().'index.php/Login/"> HERE </a> to login'));
                 redirect(base_url());
             } else {
                 $this->session->set_flashdata('error', $this->alert->warningAlert('Cannot complete your registration! Please try register again!'));

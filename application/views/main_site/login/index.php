@@ -10,7 +10,7 @@
                         'role' => 'form',
                         'id' => 'loginForm'
                     ); 
-                    echo form_open('loginExec', $login_form_attr);
+                    echo form_open('Login/loginExec', $login_form_attr);
                     ?>
                     <div class="form-group">
                         <?php 
